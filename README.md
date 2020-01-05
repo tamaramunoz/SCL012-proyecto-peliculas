@@ -96,24 +96,18 @@ Gracias a los testeos de usabilidad pudimos detectar cosas a mejorar en nuestro 
   -   
   - 
 
-  Todo esto, para que fuese menos cansador el estar frente a la pantalla y el usuario pudiera orientarse según dónde se encontraba
-  en la página.
+ 
 
 
-### Historias de usuario
+### Historia de usuario
 
-Además de las historias de usuario, adjunto link de nuestro Trello con planificación, backlog, criterios de aceptación y más
+Además de la historia de usuario, adjunto link de nuestro Trello con planificación, backlog, criterios de aceptación y más
 https://trello.com/b/strUBjIX/proyecto-final
-
-
-![alt text](/src/Images/persona1.png)
-![alt text](/src/Images/persona2.png)
-![alt text](/src/Images/persona3.png)
 
 
 ### Diseño de interfaz
 
-Realizamos prototipos para versión escritorio y móvil. A continuación mostramos imágenes y links con cada prototipo del proyecto. Cabe destacar, que no hicimos test de usabilidad ni iteración en la verisón móvil; solo fue un ideal del proyecto. 
+Realizamos prototipos para versión escritorio y móvil. A continuación mostramos imágenes y links con cada prototipo del proyecto. 
 
 #### Boceto
 
@@ -122,7 +116,7 @@ Realizamos prototipos para versión escritorio y móvil. A continuación mostram
 #### Prototipo de baja fidelidad escritorio
 
 ![alt text](/src/Images/prototipobajafidelidad1.png)
-https://www.figma.com/proto/HyMCbw4JvXaZuUalUICR2Y/Data-Lovers-LoL?node-id=1%3A2&viewport=400%2C348%2C0.5201388597488403&scaling=scale-down
+
 
 
 #### Prototipo de alta fidelidad escritorio
@@ -136,14 +130,13 @@ https://www.figma.com/proto/qQAdTEzirdEJL2jS57DWER/Pel%C3%ADculas-Alta-Fidelidad
 ### 6. Conclusión
 
 El propósito del proyecto fue crear un sitio web que almacenara información sobre las películas que están nominadas a los premios Oscar de este 2020.
-En base a esto, también poder filtrar por género de película,
-fuese capaz de contener una base de datos, y en base a eso poder filtrar a los campeones según clase y posición de juego. Para esto tuvimos que aprender sobre objetos y arrays, para que realizara la funcionalidad de filtrado, según lo que el usuario quiere o necesita saber.
+En base a esto, también poder filtrar por género de película y saber la información relacionada a estas.
 
-Nuestra problemática era que los jugadores de nivel principiante y medio de LoL pudiesen escoger a los mejores campeones para conformar su equipo de juego. Para ello, era muy importante que pudiesen filtrar por cada clase que contiene un campeón y por cada posición de juego; además de saber las mejores habilidades y destrezas de cada campeón. 
+Nuestra problemática era que 
 
-Finalmente, el objetivo se cumple en la página web, ya que los usuarios pueden filtrar los campeones, según las características mencionadas anteriormente. Además, pueden obtener más información sobre los campeones, como por ejemplo, historia, nivel de vida, nivel de poder mágico, entre otros.
+Finalmente, el objetivo se cumple en la página web, ya que los usuarios pueden filtrar ...
 
-Para terminar, creemos que la página de inicio pudo contener información con más dinamismo y no tan estática como quedó finalmente. 
+Para terminar, 
 
 
 
