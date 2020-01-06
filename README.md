@@ -14,27 +14,20 @@
 
 ## 1. Preámbulo
 
-La creación del proyecto es tener una página web con una base de datos que contenga información de las películas nominadas al Óscar para personas 
-que quieran saber todo acerca de las películas antes de la premiación en febrero de este año. Por ende, como tal, no tenemos un usuario específico 
-definido, ya que el gusto por este arte es transversal. Solo lo importante es que el usuario desee ver la información sobre las películas antes 
-de los premios.
+La creación del proyecto es tener una página web con una base de datos que contenga información de las películas nominadas al Oscar para amantes del cine que quieran saber todo acerca éstas antes de la premiación en febrero de este año. Por ende, nuestro usuario final es aquel aficionado a ver películas, sobretodo estrenos en el cine y lo importante para él es poder tener la información recopilada antes de la premiación.
 
 ## 2. Decisiones de diseño
 
 La decisión del diseño fue unánime. Queríamos realizar un sitio web innovador, de líneas simples y diferente. La idea era que pudiese
-ser un listado de vista rápida y fácil de las películas y no copiar otros sitios, como por ejemplo uno de los más utilizados como Netflix.
-También que la opción de filtrado fuese lo más visible posible.
+ser un listado de vista rápida y fácil de las películas y no copiar otros sitios, como por ejemplo uno de los más utilizados como Netflix. También que la opción de filtrado fuese lo más visible posible.
 
-Lo importante como equipo era utilizar colores oscuros con alto contraste en el tono de los títulos y párrafos, así como toda la información
-escrita en el sitio.
+Lo importante como equipo era utilizar colores oscuros con alto contraste en el tono de los títulos y párrafos, así como toda la información escrita en el sitio.
 
 ## 3. Definiendo el diseño
 
-Para definir nuestro primer diseño , decidimos realizar una encuesta utilizando Form de Google; donde redactamos 8 preguntas y la realizamos
-en un universo de 22 personas.
+Para definir nuestro primer diseño , decidimos realizar una encuesta utilizando Form de Google; donde redactamos 8 preguntas y la realizamos en un universo de 22 personas.
 
-A continuación se mostrarán las alternativas de inicio de página, por el cuál fue creada esta encuesta, preguntas y gráficos obtenidos; además de 
-las apreciaciones que tuvimos como equipo y conclusión:
+A continuación se mostrarán las alternativas de inicio de página, por el cuál fue creada esta encuesta, preguntas y gráficos obtenidos;además de las apreciaciones que tuvimos como equipo y conclusión:
 
 ![alt text](/src/Images/Propuesta1Inicio.png)
 
@@ -77,8 +70,7 @@ cree que esta es la más entendible.
 
 ### Conclusión
 
-Gracias a la encuesta, pudimos determinar qué diseño escogeríamos para nuestra página web basada en la información de películas nominadas
-a los premios Oscar de este año.
+Gracias a la encuesta, pudimos determinar qué diseño escogeríamos para nuestra página web basada en la información de películas nominadas a los premios Oscar de este año.
 
 ## 3. Testeo de usabilidad
 
@@ -93,31 +85,39 @@ https://www.loom.com/share/0f51ffb33dc34d57aea9051dc1642993
 Gracias a los testeos de usabilidad pudimos detectar cosas a mejorar en nuestro proyecto e iterar. 
   - Que los títulos sean más pequeños, ya que al hacer scroll es muy largo, para la poca información existente.
   - Cambio de ícono de inicio hacia la esquina superior izquierda.
-  -   
+  - Buscador de películas por nombre.  
   - 
 
  
 
-
 ### Historia de usuario
 
-Además de la historia de usuario, adjunto link de nuestro Trello con planificación, backlog, criterios de aceptación y más
+Además de la historia de usuario, adjunto link de nuestro Trello con planificación, backlog, criterios de aceptación y más:
 https://trello.com/b/strUBjIX/proyecto-final
 
+![alt text](/src/Images/ProtoUser.png)
+
+•	Proto User.
 
 ### Diseño de interfaz
 
-Realizamos prototipos para versión escritorio y móvil. A continuación mostramos imágenes y links con cada prototipo del proyecto. 
+Realizamos prototipos solo para versión escritorio. A continuación mostramos imágenes y links con cada prototipo del proyecto. 
 
 #### Boceto
 
-![alt text](/src/Images/boceto1.png)
+![alt text](/src/Images/Boceto1.png)
+
+![alt text](/src/Images/Boceto2.png)
 
 #### Prototipo de baja fidelidad escritorio
 
 ![alt text](/src/Images/prototipobajafidelidad1.png)
 
+•	Home
 
+![alt text](/src/Images/prototipobajafidelidad2.png)
+
+•	Página 1
 
 #### Prototipo de alta fidelidad escritorio
 
@@ -129,8 +129,7 @@ https://www.figma.com/proto/qQAdTEzirdEJL2jS57DWER/Pel%C3%ADculas-Alta-Fidelidad
 
 ### 6. Conclusión
 
-El propósito del proyecto fue crear un sitio web que almacenara información sobre las películas que están nominadas a los premios Oscar de este 2020.
-En base a esto, también poder filtrar por género de película y saber la información relacionada a estas.
+El propósito del proyecto fue crear un sitio web que almacenara información sobre las películas que están nominadas a los premios Oscar de este 2020. En base a esto, también poder filtrar por género de película y saber la información relacionada a estas.
 
 Nuestra problemática era que 
 
