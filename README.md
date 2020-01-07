@@ -72,7 +72,7 @@ cree que esta es la más entendible.
 
 Gracias a la encuesta, pudimos determinar qué diseño escogeríamos para nuestra página web basada en la información de películas nominadas a los premios Oscar de este año.
 
-## 3. Testeo de usabilidad
+## 3. Testeo de usabilidad en primer prototipo
 
 Realizamos 3 testeos de usabilidad. A continuación los videos:
 
@@ -83,7 +83,6 @@ https://www.loom.com/share/a35d284ce1354cd4be94f9c049f74bad
 https://www.loom.com/share/cd6928ff4bcc4225b98e712b27b5c1ae
 
 
-
 ### Apreciaciones e iteración
 
 Gracias a los testeos de usabilidad pudimos detectar cosas a mejorar en nuestro proyecto e iterar. 
@@ -91,9 +90,9 @@ Gracias a los testeos de usabilidad pudimos detectar cosas a mejorar en nuestro 
   - Cambio de ícono de inicio hacia la esquina superior izquierda.
   - Cambio de filtrado por género a iconología, con lista desplegable que te lleve directo a la película buscada. 
   - Cambio de poster abajo del nombre de la película, ya que las imágenes captan más rápido la atención.
-  - 
-
  
+ PD. DEBIDO A QUE TUVIMOS QUE CAMBIAR EL PRIMER PROTOTIPO POR NO HABER ENTENDIDO UNA PARTE DEL PROYECTO, SE ALCANZÓ A TESTEAR A 3 USUAROS CON EL PRIMER PROTOTIPO QUE REALIZAMOS, Y AL CAMBIARLO SE TESTEARÁ AL FINAL DEL PROYECTO EN LA MISMA PÁGINA WEB. TAMBIÉN SE DEBE TENER PRESENTE QUE EL LINK A FIGMA QUE VERÁS MÁS ADELANTE, NO ES EL MISMO TESTEADO EN UN PRINCIPIO.
+
 
 ### Historia de usuario
 
@@ -126,11 +125,24 @@ Realizamos prototipos solo para versión escritorio. A continuación mostramos i
 
 #### Prototipo de alta fidelidad escritorio
 
-![alt text](/src/Images/prototipoaltafidelidad1.png)
+![alt text](/src/Images/prototipoaltafidelidadantiguo.png)
+
+![alt text](/src/Images/prototipoaltafidelidadnuevo.png)
 https://www.figma.com/proto/qQAdTEzirdEJL2jS57DWER/Pel%C3%ADculas-Alta-Fidelidad?node-id=205%3A88&viewport=587%2C1272%2C0.25&scaling=scale-down
+
+#### Test usabilidad diseño final
+
+
 
 
 ### 5. Tareas asignadas
+
+Las tareas asignadas por integrante, fueron las siguientes:
+
+- Vianny Reyes:
+- Tamara Muñoz:
+- Jocelyn Jofré:
+- Catalina Cepeda: 
 
 ### 6. Conclusión
 
