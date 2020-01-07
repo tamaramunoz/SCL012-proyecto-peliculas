@@ -25,17 +25,18 @@ const getNameMovie = (movieTitle) => {
     .then(movie => {
 
       const containerMovies = document.getElementById('container');
-      containerMovies.innerHTML += getCard(movie)
+      containerMovies.innerHTML += getCard(movie);
     })
     .catch(err => {
       console.log(err);
-    })
-}
-getNameMovie('Bombshell')
-getNameMovie('The Irishman')
-getNameMovie('Parasite')
-getNameMovie('Marriage Story')
-getNameMovie('1917')
+    });
+};
+
+getNameMovie('Bombshell');
+getNameMovie('The Irishman');
+getNameMovie('Parasite');
+getNameMovie('Marriage Story');
+getNameMovie('1917');
 
 
 const selectingMovie = document.getElementById('filterTitle');
@@ -55,5 +56,5 @@ function getTitleMovie() {
     })
     .catch(err => {
       console.log(err);
-    })
+    });
 }
