@@ -72,7 +72,7 @@ cree que esta es la más entendible.
 
 Gracias a la encuesta, pudimos determinar qué diseño escogeríamos para nuestra página web basada en la información de películas nominadas a los premios Oscar de este año.
 
-## 3. Testeo de usabilidad
+## 4. Testeo de usabilidad en primer prototipo
 
 Realizamos 3 testeos de usabilidad. A continuación los videos:
 
@@ -83,17 +83,17 @@ https://www.loom.com/share/a35d284ce1354cd4be94f9c049f74bad
 https://www.loom.com/share/cd6928ff4bcc4225b98e712b27b5c1ae
 
 
-
 ### Apreciaciones e iteración
 
 Gracias a los testeos de usabilidad pudimos detectar cosas a mejorar en nuestro proyecto e iterar. 
   - Que los títulos sean más pequeños, ya que al hacer scroll es muy largo, para la poca información existente.
+  - En la página de inicio solo se mostrarán la información de las cintas nominadas a mejor película.
   - Cambio de ícono de inicio hacia la esquina superior izquierda.
   - Cambio de filtrado por género a iconología, con lista desplegable que te lleve directo a la película buscada. 
   - Cambio de poster abajo del nombre de la película, ya que las imágenes captan más rápido la atención.
-  - 
-
  
+ PD. DEBIDO A QUE TUVIMOS QUE CAMBIAR EL PRIMER PROTOTIPO POR NO HABER ENTENDIDO UNA PARTE DEL PROYECTO, SE ALCANZÓ A TESTEAR A 3 USUAROS CON EL PRIMER PROTOTIPO QUE REALIZAMOS, Y AL CAMBIARLO SE TESTEARÁ AL FINAL DEL PROYECTO EN LA MISMA PÁGINA WEB. TAMBIÉN SE DEBE TENER PRESENTE QUE EL LINK A FIGMA QUE VERÁS MÁS ADELANTE, NO ES EL MISMO TESTEADO EN UN PRINCIPIO.
+
 
 ### Historia de usuario
 
@@ -126,21 +126,41 @@ Realizamos prototipos solo para versión escritorio. A continuación mostramos i
 
 #### Prototipo de alta fidelidad escritorio
 
-![alt text](/src/Images/prototipoaltafidelidad1.png)
+![alt text](/src/Images/prototipoaltafidelidadantiguo.png)
+
+•	Primer prototipo
+
+![alt text](/src/Images/prototipoaltafidelidadnuevo.png)
+
+•	Prototipo final utilizado
+
 https://www.figma.com/proto/qQAdTEzirdEJL2jS57DWER/Pel%C3%ADculas-Alta-Fidelidad?node-id=205%3A88&viewport=587%2C1272%2C0.25&scaling=scale-down
 
+#### Test usabilidad diseño final
 
-### 5. Tareas asignadas
 
-### 6. Conclusión
 
-El propósito del proyecto fue crear un sitio web que almacenara información sobre las películas que están nominadas a los premios Oscar de este 2020. En base a esto, también poder filtrar por género de película y saber la información relacionada a estas.
 
-Nuestra problemática era que 
+## 5. Tareas asignadas
 
-Finalmente, el objetivo se cumple en la página web, ya que los usuarios pueden filtrar ...
+Las tareas asignadas por integrante, fueron las siguientes:
 
-Para terminar, 
+- Vianny Reyes:
+- Tamara Muñoz:
+- Jocelyn Jofré:
+- Catalina Cepeda: 
+
+## 6. Conclusión
+
+El propósito del proyecto fue crear un sitio web que almacenara información sobre las películas que están nominadas a los premios Oscar de este 2020. En base a esto, también poder filtrar por película y saber información relacionada a esta.
+
+Nuestra problemática era que los usuarios, amantes del cine pudieran tener a la mano, rápido y fácil la información que necesitan
+saber antes de que los premios Oscar se realicen.
+
+Finalmente, el objetivo se cumple en la página web, ya que los usuarios pueden filtrar las películas que están nominadas, saber 
+la información que necesitan, como por ejemplo, la evaluación, trama, actores, etc.
+
+Para terminar, la mejora que pudimos hacerle a nuestro proyecto ...
 
 
 
