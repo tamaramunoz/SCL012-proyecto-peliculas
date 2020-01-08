@@ -30,16 +30,14 @@ const getNameMovie = (movieTitle) => {
     });
 };
 
-const  movieNominated = () => {
-getNameMovie('Bombshell');
-getNameMovie('The Irishman');
-getNameMovie('Parasite');
-getNameMovie('Marriage Story');
-getNameMovie('1917');
+const movieNominated = () => {
+  getNameMovie('Bombshell');
+  getNameMovie('The Irishman');
+  getNameMovie('Parasite');
+  getNameMovie('Marriage Story');
+  getNameMovie('1917');
 }
-
 movieNominated();
-
 
 const selectingMovie = document.getElementById('filterTitle');
 selectingMovie.addEventListener('change', getTitleMovie);

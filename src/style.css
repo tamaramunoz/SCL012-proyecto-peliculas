@@ -6,24 +6,46 @@ body{
   }
 
 h3{
-  font-family:'Open Sans Condensed', sans-serif;
-  padding-top: 7em;
+  font-family:'BenchNine', sans-serif;
+  padding-top: 6em;
   color:white;
+
 }
 
 h1{
-  font-family:'Open Sans Condensed', sans-serif;
+  font-family:'BenchNine', sans-serif;
   padding-top: 1em;
   color:white;
 }
 
-h4 {
-  color: white;
+#home{
+  margin-top: 2em;
+  margin-left: 3em;
 }
 
-.card {
-    background: none !important;
-  }
+.oscar{
+  padding-top: 6.5em;
+}
+
+.card{
+  background:none !important;
+}
+
+h4{
+  color:white;
+  font-family:'Open Sans Condensed', sans-serif;
+}
+
+.back{
+  color:white;
+  line-height: 1.6;
+  font-family:'BenchNine', sans-serif;
+  font-size: 25px;
+}
+
+.front{
+  padding-top: 4em;
+}
 
 .wrap {
   margin-top: 5em;
@@ -33,10 +55,6 @@ h4 {
   background: none;
   background-size: 2em;
   display: flex;
-}
-
-.back {
-    color:white;
 }
 
 .buttons {
@@ -56,8 +74,4 @@ justify-content: space-between;
 color: white;
 margin: 7px;
 font-size: 1.8em;
-}
-.card-back {
-  display: inline-flex;
-  flex-wrap: wrap;
 }
