@@ -91,7 +91,8 @@ Gracias a los testeos de usabilidad pudimos detectar cosas a mejorar en nuestro 
   - Cambio de filtrado por género a iconología, con lista desplegable que te lleve directo a la película buscada. 
   - Cambio de poster abajo del título de la película, ya que las imágenes captan más rápido la atención.
  
- PD. DEBIDO A QUE TUVIMOS QUE CAMBIAR CASI POR COMPLETO EL PRIMER PROTOTIPO, SE DEBE TENER PRESENTE QUE EL LINK A FIGMA QUE VERÁS MÁS ADELANTE NO ES EL MISMO TESTEADO EN UN PRINCIPIO.
+PD. DEBIDO A QUE TUVIMOS QUE CAMBIAR CASI POR COMPLETO EL PRIMER PROTOTIPO, SE DEBE TENER PRESENTE QUE EL LINK
+A FIGMA QUE VERÁS MÁS ADELANTE, NO ES EL MISMO TESTEADO AL PRINCIPIO.
 
 ### Historia de usuario
 
