@@ -1,0 +1,60 @@
+body{
+    background-image: url("images/fondo.png");
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-attachment: fixed;  
+  }
+
+h3{
+  font-family:'Open Sans Condensed', sans-serif;
+  padding-top: 7em;
+  color:white;
+}
+
+h1{
+  font-family:'Open Sans Condensed', sans-serif;
+  padding-top: 1em;
+  color:white;
+}
+
+h4 {
+  color: white;
+}
+
+.card {
+    background: none !important;
+    margin-top: 0 auto;
+}
+
+.wrap {
+  margin-top: 5em;
+}
+
+.column {
+  background: none;
+  background-size: 2em;
+  display: flex;
+}
+
+.back {
+    color:white;
+}
+
+.buttons {
+justify-content: space-between;
+}
+
+.header {
+  margin: 20px;
+}
+
+.material-icons {
+  font-size: 3em !important;
+  color: white;
+}
+
+.icono-Movie {
+color: white;
+margin: 7px;
+font-size: 1.8em;
+}
