@@ -1,19 +1,18 @@
 function getCard(movie) {
-  return `<div class="card mb-3" style="max-width: 540px;"">
-              <div "row no-gutters">
-                <div "col-md-4">
-                  <img class="card-img" src="${movie.Poster}" alt="poster movie">
-                </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">${movie.Title}</h5>
-                    <p class="card-text">${movie.Plot}</p>
-                    <p class="card-text"><small class="text-muted">${movie.Genre}</small></p>
-                    <p class="card-text"><small class="text-muted">${movie.Actors}</small></p>
-                    <p class="card-text"><small class="text-muted">${movie.imdbRating}</small></p>
-                  </div>
-                </div>
+  return `<div class="card-wrap">
+            <div class="card">
+              <div class="front">
+                <h4 class="movie-title">${movie.Title}</h4>
+                <img class="imagen" src="${movie.Poster}" alt="poster movie">
               </div>
+              <div class="back"> 
+                <p class="resena">${movie.Plot}</p>
+                <p class="genero">Genre: ${movie.Genre}</p>
+                <p class="actors">Actors: ${movie.Actors} </p>  
+                <p class="rating">Rating: ${movie.imdbRating}</p>
+              </div>
+              </div>
+            </div>
           </div>`;
 }
 

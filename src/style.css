@@ -30,9 +30,10 @@ h1{
   background:none !important;
 }
 
-h4{
+.movie-title{
   color:white;
   font-family:'Open Sans Condensed', sans-serif;
+  font-size: 80px;
 }
 
 .back{
@@ -73,8 +74,4 @@ justify-content: space-between;
 color: white;
 margin: 7px;
 font-size: 1.8em;
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 1cfc93f4af532d08991f36cff53cb60e76cd94f1
