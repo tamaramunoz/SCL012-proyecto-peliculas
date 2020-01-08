@@ -9,11 +9,10 @@ h3{
   font-family:'BenchNine', sans-serif;
   padding-top: 6em;
   color:white;
-  line-height: 1.6;
 }
 
 h1{
-  font-family:'Open Sans Condensed', sans-serif;
+  font-family:'BenchNine', sans-serif;
   padding-top: 1em;
   color:white;
 }
@@ -34,7 +33,6 @@ h1{
 h4{
   color:white;
   font-family:'Open Sans Condensed', sans-serif;
-  font-size: 50px;
 }
 
 .back{
@@ -46,4 +44,33 @@ h4{
 
 .front{
   padding-top: 4em;
+}
+
+.wrap {
+  margin-top: 5em;
+}
+
+.column {
+  background: none;
+  background-size: 2em;
+  display: flex;
+}
+
+.buttons {
+justify-content: space-between;
+}
+
+.header {
+  margin: 20px;
+}
+
+.material-icons {
+  font-size: 3em !important;
+  color: white;
+}
+
+.icono-Movie {
+color: white;
+margin: 7px;
+font-size: 1.8em;
 }
