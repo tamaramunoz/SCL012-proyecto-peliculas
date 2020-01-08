@@ -29,11 +29,16 @@ const getNameMovie = (movieTitle) => {
       console.error(err);
     });
 };
+
+const  movieNominated = () => {
 getNameMovie('Bombshell');
 getNameMovie('The Irishman');
 getNameMovie('Parasite');
 getNameMovie('Marriage Story');
 getNameMovie('1917');
+}
+
+movieNominated();
 
 
 const selectingMovie = document.getElementById('filterTitle');
@@ -70,4 +75,3 @@ btnInicio.addEventListener("click", () => {
   containerMovies.innerHTML = '';
   movieNominated();
 })
-

@@ -1,5 +1,5 @@
 body{
-    background-image: url("images/fondo.png");
+    background-image: url("Images/fondo.png");
     background-repeat: no-repeat; 
     background-size: cover; 
     background-attachment: fixed;  
@@ -23,8 +23,7 @@ h4 {
 
 .card {
     background: none !important;
-    margin-top: 0 auto;
-}
+  }
 
 .wrap {
   margin-top: 5em;
@@ -58,4 +57,7 @@ color: white;
 margin: 7px;
 font-size: 1.8em;
 }
-
+.card-back {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
