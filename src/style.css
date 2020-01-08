@@ -17,13 +17,35 @@ h1{
   color:white;
 }
 
-h4 {
-  color: white;
+#home{
+  margin-top: 2em;
+  margin-left: 3em;
 }
 
-.card {
-    background: none !important;
-    margin-top: 0 auto;
+.oscar{
+  padding-top: 6.5em;
+}
+
+.card{
+  background:none !important;
+  margin-top: 0 auto;
+}
+
+h4{
+  color:white;
+  font-family:'Open Sans Condensed', sans-serif;
+  font-size: 50px;
+}
+
+.back{
+  color:white;
+  line-height: 1.6;
+  font-family:'BenchNine', sans-serif;
+  font-size: 25px;
+}
+
+.front{
+  padding-top: 4em;
 }
 
 .wrap {
@@ -34,10 +56,6 @@ h4 {
   background: none;
   background-size: 2em;
   display: flex;
-}
-
-.back {
-    color:white;
 }
 
 .buttons {
@@ -58,4 +76,3 @@ color: white;
 margin: 7px;
 font-size: 1.8em;
 }
-

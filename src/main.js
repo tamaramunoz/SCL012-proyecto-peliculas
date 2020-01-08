@@ -70,4 +70,3 @@ btnInicio.addEventListener("click", () => {
   containerMovies.innerHTML = '';
   movieNominated();
 })
-
