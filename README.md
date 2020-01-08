@@ -154,7 +154,7 @@ saber antes de que los premios Oscar se realicen.
 Finalmente, el objetivo se cumple en la página web, ya que los usuarios pueden filtrar las películas que están nominadas, saber 
 la información que necesitan, como por ejemplo, la evaluación, trama, actores, etc.
 
-Para terminar, la mejora que pudimos hacerle a nuestro proyecto es haber podido utilizar de más y mejor manera la herramienta de Boostrap.
+Para terminar, la mejora que pudimos hacerle a nuestro proyecto es haber utilizado mejor manera la herramienta de Boostrap, además, de haberle sacado más partido a este recurso. 
 
 
 
