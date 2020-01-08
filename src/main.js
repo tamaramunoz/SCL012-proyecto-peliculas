@@ -1,6 +1,5 @@
 function getCard(movie) {
-  return `<div class="wrap">
-            <div class="card-wrap">
+  return `<div class="card-wrap">
               <div class="card">
                 <div class="front">
                   <h4>Title: ${movie.Title}</h4>
@@ -56,3 +55,19 @@ function getTitleMovie() {
       console.error(err);
     });
 }
+
+// function for none content
+const btnFilter = document.getElementById('filterTitle');
+btnFilter.addEventListener("click", () => {
+  contenido.style.display = "none";
+})
+
+// function for return start
+const btnInicio = document.getElementById('inicio');
+btnInicio.addEventListener("click", () => {
+  contenido.style.display = "flex";
+  const containerMovies = document.getElementById('container');
+  containerMovies.innerHTML = '';
+  movieNominated();
+})
+
