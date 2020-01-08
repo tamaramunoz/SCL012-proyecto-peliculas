@@ -1,12 +1,11 @@
 {
-  "name": "data-lovers",
+  "name": "proyecto-peliculas",
   "version": "1.0.0",
   "main": "src/index.html",
   "license": "MIT",
   "scripts": {
     "htmlhint": "htmlhint src/*.html test/*.html",
     "eslint": "eslint --ext .js src/ test/",
-    "pretest": "npm run eslint && npm run htmlhint",
     "test": "jest --verbose --coverage",
     "open-coverage-report": "opener ./coverage/lcov-report/index.html",
     "start": "serve ./src"
@@ -15,6 +14,7 @@
     "@babel/core": "^7.6.2",
     "@babel/plugin-transform-modules-commonjs": "^7.6.0",
     "babel-jest": "^24.9.0",
+    "cross-fetch": "^3.0.4",
     "htmlhint": "^0.11.0",
     "jest": "^24.9.0",
     "opener": "^1.5.1",
