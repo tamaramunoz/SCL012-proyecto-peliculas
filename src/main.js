@@ -30,11 +30,11 @@ const getNameMovie = (movieTitle) => {
     });
 };
 const movieNominated = () => {
-getNameMovie('Bombshell');
-getNameMovie('The Irishman');
-getNameMovie('Parasite');
-getNameMovie('Marriage Story');
-getNameMovie('1917');
+  getNameMovie('Bombshell');
+  getNameMovie('The Irishman');
+  getNameMovie('Parasite');
+  getNameMovie('Marriage Story');
+  getNameMovie('1917');
 }
 movieNominated();
 
