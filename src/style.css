@@ -1,13 +1,13 @@
 body{
-    background-image: url("img/fondo.png");
+    background-image: url("images/fondo.png");
     background-repeat: no-repeat; 
     background-size: cover; 
-    background-attachment: fixed;     
-}
+    background-attachment: fixed;  
+  }
 
 h3{
-  font-family:'BenchNine', sans-serif;
-  padding-top: 6em;
+  font-family:'Open Sans Condensed', sans-serif;
+  padding-top: 7em;
   color:white;
 }
 
@@ -28,6 +28,7 @@ h1{
 
 .card{
   background:none !important;
+  margin-top: 0 auto;
 }
 
 h4{
@@ -73,4 +74,8 @@ justify-content: space-between;
 color: white;
 margin: 7px;
 font-size: 1.8em;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 1cfc93f4af532d08991f36cff53cb60e76cd94f1

@@ -1,75 +1,146 @@
-# "Proyecto" de final de _Common Core_, películas
+# HELLO. I am Oscar.
 
- ## Índice
+## Índice
 
-* [Preámbulo](#preámbulo)
-* [Resumen del proyecto](#resumen-del-proyecto)
-* [Consideraciones generales](#consideraciones-generales)
-* [Objetivos de aprendizaje](#objetivos-de-aprendizaje)
-* [Parte obligatoria](#parte-obligatoria)
-* [Consideraciones técnicas](#consideraciones-técnicas)
-
- ***
-
- ## **Preámbulo**
-
- Con la aparición de plataformas para ver películas en la nube, como Netflix o
-Hulu, ver películas desde donde estés, comiendo lo que quieras
-(sin tener que pagar precios ridículos por pop-corn / pipoca / palomitas /
-canchita / cabritas), parando si es necesario, teniendo acceso a una cantidad
-abrumadora de películas... ha cambiado la experiencia del usuario
-y modificado el mercado de las películas a nivel global.
-
- ![Pelis](https://media.giphy.com/media/NipFetnQOuKhW/giphy.gif)
-
- ## **Resumen del proyecto**
-
- Durante estos días crearás el producto que tú quieras alrededor del mundo
-de las películas. Puede ser un sitio que hable de las mejores películas
-latinoamericanas, uno que recomiende las películas recién estrenadas en Netflix,
-uno de pelis de terror... o... ¡lo que quieras!
-
- ## **Consideraciones generales**
-
- * Este proyecto se debe resolver en equipos de hasta 4 personas.
-* Usa la API de [OMDB](http://www.omdbapi.com/) (The Open Movie Database).
-* Tiempo para completar el reto: 4 días.
+* [1. Preámbulo](#1-preámbulo)
+* [2. Decisiones de diseño](#2-decisiones-de-diseño)
+* [3. Definiendo el diseño](#3-definiendo-el-diseño)
+* [4. Testeo de usabilidad](#4-testeo-de-usabilidad)
+* [5. Tareas asignadas](#5-tareas-asignadas)
+* [6. Conclusión](#6-conclusion)
 
 
- ## **Objetivos de aprendizaje**
+***
 
- * Enfrentarte a un reto de corta duración en el que pongas en práctica todo
-lo aprendido hasta ahora.
-* Que sigas desarrollando tus habilidades de trabajo en equipo. Mientras más
-personas en un equipo de trabajo, mayor complejidad para: tener un entendimiento
-común, seguir el flujo de trabajo, buscar consensos, etc.
+## 1. Preámbulo
 
- ## **Ejes importantes**
+La creación del proyecto es tener una página web con una base de datos que contenga información de las películas nominadas al Oscar para amantes del cine que quieran saber todo acerca éstas antes de la premiación en febrero de este año. Por ende, nuestro usuario final es aquel aficionado a ver películas, sobretodo estrenos en el cine y lo importante para él es poder tener la información recopilada antes de la premiación.
 
- * Detallar planeamiento del trabajo en un repositorio único por _squad_ en el que se presente el _planning_, el _research_, los _sketches_
-y las inspiraciones utilizadas para definir el producto.
-* Además, deberás detallar en el archivo _readme_, qué hizo cada una en el
-proyecto.
-* El producto deberá presentarse publicado en github pages.
+## 2. Decisiones de diseño
 
- ## **Consideraciones técnicas**
+La decisión del diseño fue unánime. Queríamos realizar un sitio web innovador, de líneas simples y diferente. La idea era que pudiese
+ser un listado de vista rápida y fácil de las películas y no copiar otros sitios, como por ejemplo uno de los más utilizados como Netflix. También que la opción de filtrado fuese lo más visible posible.
 
- * El diseño visual de los componentes es de libre elección de las estudiantes,
-sin embargo, si no quieren crearlo desde cero, pueden utilizar el que
-propuso [Walmart](https://drive.google.com/file/d/0B6GBtl-gO6LwaVprQkFqTGI2a28/view).
-* Deberán usar al menos un framework de css.
+Lo importante como equipo era utilizar colores oscuros con alto contraste en el tono de los títulos y párrafos, así como toda la información escrita en el sitio.
 
-## **Tips para la organización de trabajo entre UX y Front end**
+## 3. Definiendo el diseño
 
-* Las UX y FE entienden en conjunto el reto en el que van a trabajar, se organizan y arman sus primeros bocetos.
-* Con los primeros bocetos/ideas, las FE pasan a crear su ambiente de desarrollo y a crear componentes atómicos que luego les sea fácil personalizar con CSS y utilizar para crear interfaces más complejas. Además, las FE empiezan también a trabajar en la lógica de la aplicación. Mientras tanto, las UX crean una guía de estilos, los flujos de usuarios, hacen un prototipo más completo y lo testean.
-* Las UX comparten el prototipo testeado, para que el equipo empiece a personalizar los componentes y a ponerlos en conjunto.
-* Las UX hacen QA y testing con los releases que vayan haciendo las FE.
-* Planifiquen, historias de usuario y definition of done son importantísimos.
-* Usen las ceremonias ágiles para saber en que van como equipo, dailys y retrospectivas diarias son esenciales.
-* Iteren, iteren, iteren.
+Para definir nuestro primer diseño , decidimos realizar una encuesta utilizando Form de Google; donde redactamos 8 preguntas y la realizamos en un universo de 22 personas.
 
-## **Presentación de Proyecto**
+A continuación se mostrarán las alternativas de inicio de página, por el cuál fue creada esta encuesta, preguntas y gráficos obtenidos;además de las apreciaciones que tuvimos como equipo y conclusión:
 
-* Las demos no deben durar más de 5 minutos y deben mostrar el producto y las tecnologías usadas.
-* La audiencia podrá realizar preguntas dentro de los siguientes 3 minutos. 
+![alt text](/src/Images/Propuesta1Inicio.png)
+
+•	Propuesta Inicio 1
+
+![alt text](/src/Images/Propuesta2Inicio.png)
+
+•	Propuesta Inicio 2
+
+![alt text](/src/Images/Pregunta1.png)
+
+![alt text](/src/Images/Pregunta2.png)
+
+•	La mayoría se identifica con el género femenino.
+
+![alt text](/src/Images/Pregunta3.png)
+
+•	La mayoría de los encuestados tienes entre 26 a 35 años.
+
+![alt text](/src/Images/Pregunta4.png)
+
+•	El 72.7% contesta que sí le gusta ver películas.
+
+![alt text](/src/Images/Pregunta5.png)
+
+•	La mayoría de los encuestados responde que le gusta ir al cine.
+
+![alt text](/src/Images/Pregunta6.png)
+
+•	El 45.5% ve películas al menos una vez a la semana.
+
+![alt text](/src/Images/Pregunta7.png)
+
+•	Un 90.9% le gustó más la propuesta de inicio de página web número 1.
+
+![alt text](/src/Images/Pregunta8.png)
+
+•	Esta pregunta para nosotras es la más importante, ya que con esta escogimos la propuesta de inicio de página web número 1, ya que el 95.5%
+cree que esta es la más entendible.
+
+### Conclusión
+
+Gracias a la encuesta, pudimos determinar qué diseño escogeríamos para nuestra página web basada en la información de películas nominadas a los premios Oscar de este año.
+
+## 3. Testeo de usabilidad
+
+Realizamos 3 testeos de usabilidad. A continuación los videos:
+
+https://www.loom.com/share/0f51ffb33dc34d57aea9051dc1642993
+
+https://www.loom.com/share/a35d284ce1354cd4be94f9c049f74bad
+
+https://www.loom.com/share/cd6928ff4bcc4225b98e712b27b5c1ae
+
+
+
+### Apreciaciones e iteración
+
+Gracias a los testeos de usabilidad pudimos detectar cosas a mejorar en nuestro proyecto e iterar. 
+  - Que los títulos sean más pequeños, ya que al hacer scroll es muy largo, para la poca información existente.
+  - Cambio de ícono de inicio hacia la esquina superior izquierda.
+  - Cambio de filtrado por género a iconología, con lista desplegable que te lleve directo a la película buscada. 
+  - Cambio de poster abajo del nombre de la película, ya que las imágenes captan más rápido la atención.
+  - 
+
+ 
+
+### Historia de usuario
+
+Además de la historia de usuario, adjunto link de nuestro Trello con planificación, backlog, criterios de aceptación y más:
+https://trello.com/b/strUBjIX/proyecto-final
+
+![alt text](/src/Images/ProtoUser.png)
+
+•	Proto User.
+
+### Diseño de interfaz
+
+Realizamos prototipos solo para versión escritorio. A continuación mostramos imágenes y links con cada prototipo del proyecto. 
+
+#### Boceto
+
+![alt text](/src/Images/Boceto1.png)
+
+![alt text](/src/Images/Boceto2.png)
+
+#### Prototipo de baja fidelidad escritorio
+
+![alt text](/src/Images/prototipobajafidelidad1.png)
+
+•	Home
+
+![alt text](/src/Images/prototipobajafidelidad2.png)
+
+•	Página 1
+
+#### Prototipo de alta fidelidad escritorio
+
+![alt text](/src/Images/prototipoaltafidelidad1.png)
+https://www.figma.com/proto/qQAdTEzirdEJL2jS57DWER/Pel%C3%ADculas-Alta-Fidelidad?node-id=205%3A88&viewport=587%2C1272%2C0.25&scaling=scale-down
+
+
+### 5. Tareas asignadas
+
+### 6. Conclusión
+
+El propósito del proyecto fue crear un sitio web que almacenara información sobre las películas que están nominadas a los premios Oscar de este 2020. En base a esto, también poder filtrar por género de película y saber la información relacionada a estas.
+
+Nuestra problemática era que 
+
+Finalmente, el objetivo se cumple en la página web, ya que los usuarios pueden filtrar ...
+
+Para terminar, 
+
+
+
