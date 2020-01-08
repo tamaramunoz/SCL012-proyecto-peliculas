@@ -14,7 +14,7 @@
 
 ## 1. Preámbulo
 
-La creación del proyecto es tener una página web con una base de datos que contenga información de las películas nominadas al Oscar para amantes del cine que quieran saber todo acerca éstas antes de la premiación en febrero de este año. Por ende, nuestro usuario final es aquel aficionado a ver películas, sobretodo estrenos en el cine y lo importante para él es poder tener la información recopilada antes de la premiación.
+La creación del proyecto es tener una página web con una base de datos que contenga información de las películas nominadas al Oscar para amantes del cine que quieran saber todo acerca de éstas antes de la premiación en febrero de este año. Por ende, nuestro usuario final es aquel aficionado a ver películas, sobretodo estrenos en el cine y lo importante para él es poder tener la información recopilada antes de la premiación.
 
 ## 2. Decisiones de diseño
 
@@ -65,8 +65,7 @@ A continuación se mostrarán las alternativas de inicio de página, por el cuá
 
 ![alt text](/src/Images/Pregunta8.png)
 
-•	Esta pregunta para nosotras es la más importante, ya que con esta escogimos la propuesta de inicio de página web número 1, ya que el 95.5%
-cree que esta es la más entendible.
+•	Esta pregunta para nosotras es la más importante, ya que con esta escogimos la propuesta de inicio de página web número 1, ya que el 95.5% cree que esta es la más entendible.
 
 ### Conclusión
 
@@ -90,10 +89,10 @@ Gracias a los testeos de usabilidad pudimos detectar cosas a mejorar en nuestro 
   - En la página de inicio solo se mostrarán la información de las cintas nominadas a mejor película.
   - Cambio de ícono de inicio hacia la esquina superior izquierda.
   - Cambio de filtrado por género a iconología, con lista desplegable que te lleve directo a la película buscada. 
-  - Cambio de poster abajo del nombre de la película, ya que las imágenes captan más rápido la atención.
+  - Cambio de poster abajo del título de la película, ya que las imágenes captan más rápido la atención.
  
- PD. DEBIDO A QUE TUVIMOS QUE CAMBIAR EL PRIMER PROTOTIPO POR NO HABER ENTENDIDO UNA PARTE DEL PROYECTO, SE ALCANZÓ A TESTEAR A 3 USUAROS CON EL PRIMER PROTOTIPO QUE REALIZAMOS, Y AL CAMBIARLO SE TESTEARÁ AL FINAL DEL PROYECTO EN LA MISMA PÁGINA WEB. TAMBIÉN SE DEBE TENER PRESENTE QUE EL LINK A FIGMA QUE VERÁS MÁS ADELANTE, NO ES EL MISMO TESTEADO EN UN PRINCIPIO.
-
+PD. DEBIDO A QUE TUVIMOS QUE CAMBIAR CASI POR COMPLETO EL PRIMER PROTOTIPO, SE DEBE TENER PRESENTE QUE EL LINK
+A FIGMA QUE VERÁS MÁS ADELANTE, NO ES EL MISMO TESTEADO AL PRINCIPIO.
 
 ### Historia de usuario
 
@@ -136,19 +135,15 @@ Realizamos prototipos solo para versión escritorio. A continuación mostramos i
 
 https://www.figma.com/proto/qQAdTEzirdEJL2jS57DWER/Pel%C3%ADculas-Alta-Fidelidad?node-id=205%3A88&viewport=587%2C1272%2C0.25&scaling=scale-down
 
-#### Test usabilidad diseño final
-
-
-
-
 ## 5. Tareas asignadas
 
-Las tareas asignadas por integrante, fueron las siguientes:
+Las tareas asignadas por integrante del squad 3, fueron las siguientes:
 
-- Vianny Reyes:
-- Tamara Muñoz:
-- Jocelyn Jofré:
-- Catalina Cepeda: 
+- Vianny Reyes: darle funcionalidad al botón home con DOM, también que la página de inicio se invisibilizara una vez que el usuario
+escogiera una película y solo apareciera esta; y por último utilizó mediante Boostrap la propiedad "responsive".
+- Tamara Muñoz: creó la función para traer las películas por títulos y las que se muestran en el home, además de trabajar en Javascript y  FETCH.
+- Jocelyn Jofré: estuvo encargada de todo lo que fuese diseño visual, HTML, trabajar con CSS y Boostrap.
+- Catalina Cepeda: realizar, research, testing, diseño de prototipos, encuesta, bocetos, y todo lo que tuviese relación con UX Designer.
 
 ## 6. Conclusión
 
@@ -160,7 +155,7 @@ saber antes de que los premios Oscar se realicen.
 Finalmente, el objetivo se cumple en la página web, ya que los usuarios pueden filtrar las películas que están nominadas, saber 
 la información que necesitan, como por ejemplo, la evaluación, trama, actores, etc.
 
-Para terminar, la mejora que pudimos hacerle a nuestro proyecto ...
+Para terminar, la mejora que pudimos hacerle a nuestro proyecto es haber utilizado mejor manera la herramienta de Boostrap, además, de haberle sacado más partido a este recurso. 
 
 
 
