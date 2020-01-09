@@ -139,11 +139,10 @@ https://www.figma.com/proto/qQAdTEzirdEJL2jS57DWER/Pel%C3%ADculas-Alta-Fidelidad
 
 Las tareas asignadas por integrante del squad 3, fueron las siguientes:
 
-- Vianny Reyes: darle funcionalidad al botón home con DOM, también que la página de inicio se invisibilizara una vez que el usuario
-escogiera una película y solo apareciera esta; y por último utilizó mediante Boostrap la propiedad "responsive".
-- Tamara Muñoz: creó la función para traer las películas por títulos y las que se muestran en el home, además de trabajar en Javascript y  FETCH.
+- Vianny Reyes: utilizó DOM y Boostrap.
+- Tamara Muñoz: trabajó en Javascript y  FETCH.
 - Jocelyn Jofré: estuvo encargada de todo lo que fuese diseño visual, HTML, trabajar con CSS y Boostrap.
-- Catalina Cepeda: realizar, research, testing, diseño de prototipos, encuesta, bocetos, y todo lo que tuviese relación con UX Designer.
+- Catalina Cepeda: realicé todo lo relacionado a UX Design.
 
 ## 6. Conclusión
 
@@ -156,6 +155,3 @@ Finalmente, el objetivo se cumple en la página web, ya que los usuarios pueden 
 la información que necesitan, como por ejemplo, la evaluación, trama, actores, etc.
 
 Para terminar, la mejora que pudimos hacerle a nuestro proyecto es haber utilizado mejor manera la herramienta de Boostrap, además, de haberle sacado más partido a este recurso. 
-
-
-
