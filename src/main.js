@@ -1,19 +1,102 @@
 function getCard(movie) {
-   return `<div class="card-wrap">
-            <div class="card">
-               <div class="front">
-                 <h4 class="movie-title">${movie.Title}</h4>
-                 <img class="imagen" src="${movie.Poster}" alt="poster movie">
-               </div>
-               <div class="back">
-                 <p class="resena">${movie.Plot}</p>
-                 <p class="genero">Genre: ${movie.Genre}</p>
-                 <p class="actors">Actors: ${movie.Actors} </p>
-                 <p class="rating">Rating: ${movie.imdbRating}</p>
-               </div>
-               </div>
-             </div>
-           </div>`;
+  return `<div class="row">
+              
+              <div class="col-md-4">
+                <img class="imagen" src="${movie.Poster}" alt="poster movie">
+                <div class="back"> 
+                  <p class="genero">Genre: ${movie.Genre}</p>
+                  <p class="actors">Actors: ${movie.Actors} </p>  
+                  <p class="rating">Rating: ${movie.imdbRating}</p>
+                </div>
+              </div>
+
+              <div class="col-md-8 plot"> 
+                <h4 class="movie-title text-center">${movie.Title}</h4>
+                <p class="resena">${movie.Plot}</p>
+              </div>
+
+            </div>
+
+            <div class="spacing"></div>
+          </div>`;
+
+  // return `<div class="card-wrap">
+  //           <div class="card">
+  //             <div class="front">
+  //               <h4 class="movie-title">${movie.Title}</h4>
+  //               <img class="imagen" src="${movie.Poster}" alt="poster movie">
+  //             </div>
+  //             <div class="back">
+  //               <p class="resena">${movie.Plot}</p>
+  //               <p class="genero">Genre: ${movie.Genre}</p>
+  //               <p class="actors">Actors: ${movie.Actors} </p>
+  //               <p class="rating">Rating: ${movie.imdbRating}</p>
+  //             </div>
+  //             </div>
+  //           </div>
+  //         </div>`;
+}
+
+function getCardLeft(movie) {
+  return `<div class="row">
+              
+              <div class="col-md-4">
+                <img class="imagen" src="${movie.Poster}" alt="poster movie">
+                <div class="back"> 
+                  <p class="genero">Genre: ${movie.Genre}</p>
+                  <p class="actors">Actors: ${movie.Actors} </p>  
+                  <p class="rating">Rating: ${movie.imdbRating}</p>
+                </div>
+              </div>
+
+              <div class="col-md-8 plot"> 
+                <h4 class="movie-title text-center">${movie.Title}</h4>
+                <p class="resena">${movie.Plot}</p>
+              </div>
+
+            </div>
+
+            <div class="spacing"></div>
+          </div>`;
+
+  // return `<div class="card-wrap">
+  //           <div class="card">
+  //             <div class="front">
+  //               <h4 class="movie-title">${movie.Title}</h4>
+  //               <img class="imagen" src="${movie.Poster}" alt="poster movie">
+  //             </div>
+  //             <div class="back"> 
+  //               <p class="resena">${movie.Plot}</p>
+  //               <p class="genero">Genre: ${movie.Genre}</p>
+  //               <p class="actors">Actors: ${movie.Actors} </p>  
+  //               <p class="rating">Rating: ${movie.imdbRating}</p>
+  //             </div>
+  //             </div>
+  //           </div>
+  //         </div>`;
+}
+
+function getCardRight(movie) {
+  return `<div class="row">
+
+              <div class="col-md-8 plot"> 
+                <h4 class="movie-title text-center">${movie.Title}</h4>
+                <p class="resena">${movie.Plot}</p>
+              </div>
+
+              <div class="col-md-4">
+                <img class="imagen" src="${movie.Poster}" alt="poster movie">
+                <div class="back"> 
+                  <p class="genero">Genre: ${movie.Genre}</p>
+                  <p class="actors">Actors: ${movie.Actors} </p>  
+                  <p class="rating">Rating: ${movie.imdbRating}</p>
+                </div>
+              </div>
+
+            </div>
+            
+            <div class="spacing"></div>
+          </div>`;
 }
 
 const getNameMovie = async (movieTitle, align) => {
@@ -31,19 +114,20 @@ const getNameMovie = async (movieTitle, align) => {
       console.error(err);
     });
 };
+const movieNominated = async () => {
+  await getNameMovie('Bombshell', 'left');
+  await getNameMovie('The Irishman', 'right');
+  await getNameMovie('Parasite', 'left');
+  await getNameMovie('Marriage Story', 'right');
+  await getNameMovie('1917', 'left');
+};
 
-const movieNominated = () => {
-  getNameMovie('Bombshell');
-  getNameMovie('The Irishman');
-  getNameMovie('Parasite');
-  getNameMovie('Marriage Story');
-  getNameMovie('1917');
-}
 movieNominated();
 
 document.addEventListener('DOMContentLoaded', () => {
   const selectingMovie = document.querySelectorAll('.filterTitle');
   selectingMovie.forEach((movie) => movie.addEventListener('click', getTitleMovie));
+
 
   // selectingMovie.addEventListener('click', getTitleMovie);
 }, false);
@@ -69,6 +153,13 @@ const getTitleMovie = async (e) => {
   const contenido = document.getElementById('contenido');
   contenido.style.display = "none";
 }
+
+
+// function for none content
+// const btnFilter = document.getElementById('filterTitle');
+// btnFilter.addEventListener("click", () => {
+//   contenido.style.display = "none";
+// })
 
 // function for return start
 const btnInicio = document.getElementById('inicio');
