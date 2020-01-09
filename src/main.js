@@ -1,38 +1,84 @@
 function getCard(movie) {
-  return `<div class="card-wrap">
-            <div class="card">
-              <div class="front">
-                <h4 class="movie-title">${movie.Title}</h4>
+  return `<div class="row">
+              
+              <div class="col-md-4">
                 <img class="imagen" src="${movie.Poster}" alt="poster movie">
+                <div class="back"> 
+                  <p class="genero">Genre: ${movie.Genre}</p>
+                  <p class="actors">Actors: ${movie.Actors} </p>  
+                  <p class="rating">Rating: ${movie.imdbRating}</p>
+                </div>
               </div>
-              <div class="back"> 
+              <div class="col-md-8 plot"> 
+                <h4 class="movie-title text-center">${movie.Title}</h4>
                 <p class="resena">${movie.Plot}</p>
-                <p class="genero">Genre: ${movie.Genre}</p>
-                <p class="actors">Actors: ${movie.Actors} </p>  
-                <p class="rating">Rating: ${movie.imdbRating}</p>
-              </div>
               </div>
             </div>
+            <div class="spacing"></div>
           </div>`;
 }
 
-const getNameMovie = async (movieTitle) => {
+function getCardLeft(movie) {
+  return `<div class="row">
+              
+              <div class="col-md-4">
+                <img class="imagen" src="${movie.Poster}" alt="poster movie">
+                <div class="back"> 
+                  <p class="genero">Genre: ${movie.Genre}</p>
+                  <p class="actors">Actors: ${movie.Actors} </p>  
+                  <p class="rating">Rating: ${movie.imdbRating}</p>
+                </div>
+              </div>
+              <div class="col-md-8 plot"> 
+                <h4 class="movie-title text-center">${movie.Title}</h4>
+                <p class="resena">${movie.Plot}</p>
+              </div>
+            </div>
+            <div class="spacing"></div>
+          </div>`;
+}
+
+function getCardRight(movie) {
+  return `<div class="row">
+              <div class="col-md-8 plot"> 
+                <h4 class="movie-title text-center">${movie.Title}</h4>
+                <p class="resena">${movie.Plot}</p>
+              </div>
+              <div class="col-md-4">
+                <img class="imagen" src="${movie.Poster}" alt="poster movie">
+                <div class="back"> 
+                  <p class="genero">Genre: ${movie.Genre}</p>
+                  <p class="actors">Actors: ${movie.Actors} </p>  
+                  <p class="rating">Rating: ${movie.imdbRating}</p>
+                </div>
+              </div>
+            </div>
+            
+            <div class="spacing"></div>
+          </div>`;
+}
+
+const getNameMovie = async (movieTitle, align) => {
   await fetch(`http://www.omdbapi.com/?t=${movieTitle}&apikey=8a5b424a`)
     .then((res) => (res.json()))
     .then((movie) => {
       const containerMovies = document.getElementById('container');
-      containerMovies.innerHTML += getCard(movie);
+      if (align === 'left') {
+        containerMovies.innerHTML += getCardLeft(movie);
+      } else {
+        containerMovies.innerHTML += getCardRight(movie);
+      }
     })
     .catch((err) => {
       console.error(err);
     });
 };
 const movieNominated = async () => {
- await getNameMovie('Bombshell');
- await getNameMovie('The Irishman');
- await getNameMovie('Parasite');
- await getNameMovie('Marriage Story');
- await getNameMovie('1917');
+  await getNameMovie('Bombshell', 'left');
+  await getNameMovie('The Irishman', 'right');
+  await getNameMovie('Parasite', 'left');
+  await getNameMovie('Marriage Story', 'right');
+  await getNameMovie('1917', 'left');
 }
 movieNominated();
 
