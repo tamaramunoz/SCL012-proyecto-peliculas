@@ -1,3 +1,21 @@
+body {
+  background-image: url("Images/fondo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h3 {
+  font-family: 'BenchNine', sans-serif;
+  padding-top: 6em;
+  color: white;
+
+}
+
+h1 {
+  font-family: 'BenchNine', sans-serif;
+  padding-top: 1em;
+  color: white;
 @import url('https://fonts.googleapis.com/css?family=BenchNine:400,700&display=swap');
 
 body{
@@ -23,8 +41,7 @@ h1{
   color:white;
 }
 
-#home{
-  margin-top: 2em;
+#home {
   margin-left: 3em;
 }
 
@@ -33,31 +50,31 @@ h1{
   opacity: 0.7;
 }
 
-.card{
-  background:none !important;
+.card {
+  background: none !important;
+  flex-direction: row !important;
 }
 
-.movie-title{
-  color:white;
-  font-family:'Open Sans Condensed', sans-serif;
-  font-size: 85px;
-  font-weight: bold;
+
+.movie-title {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 80px;
 }
 
-.back{
-  /* color:white; */
-  /* line-height: 1.6; */
-  font-family:'BenchNine', sans-serif;
-  /* font-size: 25px; */
-
-  font-weight: bold;
+.back {
+  color: white;
+  line-height: 1.6;
+  font-family: 'BenchNine', sans-serif;
   font-size: 25px;
-  line-height: 50px;
-  color: rgba(255, 255, 255, 0.75);
-  padding: 1em;
+  flex: 1 0 auto;
+  width: 50%;
+  align-self: center;
+  margin: 30px;
+  align-content: space-between !important;
 }
 
-.front{
+.front {
   padding-top: 4em;
 }
 
@@ -69,10 +86,13 @@ h1{
   background: none;
   background-size: 2em;
   display: flex;
+  margin-top: 15px;
 }
 
 .buttons {
-  justify-content: space-between;
+  justify-content: space-evenly;
+  margin-top: 100px;
+
 }
 
 .header {
@@ -80,7 +100,7 @@ h1{
 }
 
 .material-icons {
-  font-size: 3em !important;
+  font-size: 3.5em !important;
   color: white;
 }
 
