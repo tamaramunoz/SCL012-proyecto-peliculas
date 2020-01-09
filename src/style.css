@@ -32,9 +32,10 @@ h1 {
   align-content: space-between !important;
 }
 
-h4 {
+.movie-title {
   color: white;
   font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 80px;
 }
 
 .back {
