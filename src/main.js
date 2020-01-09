@@ -59,7 +59,7 @@ function getCardRight(movie) {
 }
 
 const getNameMovie = async (movieTitle, align) => {
-  await fetch(`http://www.omdbapi.com/?t=${movieTitle}&apikey=8a5b424a`)
+  await fetch(`https://www.omdbapi.com/?t=${movieTitle}&apikey=8a5b424a`)
     .then((res) => (res.json()))
     .then((movie) => {
       const containerMovies = document.getElementById('container');
@@ -89,7 +89,7 @@ function getTitleMovie() {
   const choosingMovie = document.querySelector('#filterTitle').value;
   console.log(choosingMovie);
 
-  fetch(`http://www.omdbapi.com/?t=${choosingMovie}&apikey=8a5b424a`)
+  fetch(`https://www.omdbapi.com/?t=${choosingMovie}&apikey=8a5b424a`)
     .then((res) => (res.json()))
     .then((movieDB) => {
       const containerMovies = document.getElementById('container');
