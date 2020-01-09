@@ -1,49 +1,56 @@
-body{
-    background-image: url("Images/fondo.png");
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-attachment: fixed;  
-  }
+body {
+  background-image: url("Images/fondo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
 
-h3{
-  font-family:'BenchNine', sans-serif;
+h3 {
+  font-family: 'BenchNine', sans-serif;
   padding-top: 6em;
-  color:white;
+  color: white;
 
 }
 
-h1{
-  font-family:'BenchNine', sans-serif;
+h1 {
+  font-family: 'BenchNine', sans-serif;
   padding-top: 1em;
-  color:white;
+  color: white;
 }
 
-#home{
-  margin-top: 2em;
+#home {
   margin-left: 3em;
 }
 
-.oscar{
+.oscar {
   padding-top: 6.5em;
 }
 
-.card{
-  background:none !important;
+.card {
+  background: none !important;
+  flex-direction: row !important;
+  align-content: space-between !important;
 }
 
-h4{
-  color:white;
-  font-family:'Open Sans Condensed', sans-serif;
+h4 {
+  color: white;
+  font-family: 'Open Sans Condensed', sans-serif;
 }
 
-.back{
-  color:white;
+.back {
+  color: white;
   line-height: 1.6;
-  font-family:'BenchNine', sans-serif;
+  font-family: 'BenchNine', sans-serif;
   font-size: 25px;
+  flex: 1 0 auto;
+  display: flex;
+  width: 50%;
+  align-self: center;
+  margin: 30px;
+  align-content: space-between !important;
 }
 
-.front{
+.front {
   padding-top: 4em;
 }
 
@@ -55,10 +62,12 @@ h4{
   background: none;
   background-size: 2em;
   display: flex;
+  margin-top: 15px;
 }
 
 .buttons {
-justify-content: space-between;
+  justify-content: space-evenly;
+  margin-top: 100px;
 }
 
 .header {
@@ -66,12 +75,12 @@ justify-content: space-between;
 }
 
 .material-icons {
-  font-size: 3em !important;
+  font-size: 3.5em !important;
   color: white;
 }
 
 .icono-Movie {
-color: white;
-margin: 7px;
-font-size: 1.8em;
+  color: white;
+  margin: 7px;
+  font-size: 1.8em;
 }
