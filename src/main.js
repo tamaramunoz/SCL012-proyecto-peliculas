@@ -124,13 +124,11 @@ const movieNominated = async () => {
 
 movieNominated();
 
-document.addEventListener('DOMContentLoaded', () => {
-  const selectingMovie = document.querySelectorAll('.filterTitle');
-  selectingMovie.forEach((movie) => movie.addEventListener('click', getTitleMovie));
+const selectingMovie = document.querySelectorAll('.filterTitle');
+selectingMovie.forEach((movie) => movie.addEventListener('click', getTitleMovie));
 
 
-  // selectingMovie.addEventListener('click', getTitleMovie);
-}, false);
+// selectingMovie.addEventListener('click', getTitleMovie);
 
 const getTitleMovie = async (e) => {
   const choosingMovie = e.target.innerText;
@@ -151,8 +149,8 @@ const getTitleMovie = async (e) => {
 
   // function for none content
   const contenido = document.getElementById('contenido');
-  contenido.style.display = "none";
-}
+  contenido.style.display = 'none';
+};
 
 
 // function for none content
@@ -163,9 +161,9 @@ const getTitleMovie = async (e) => {
 
 // function for return start
 const btnInicio = document.getElementById('inicio');
-btnInicio.addEventListener("click", () => {
-  contenido.style.display = "flex";
+btnInicio.addEventListener('click', () => {
+  contenido.style.display = 'flex';
   const containerMovies = document.getElementById('container');
   containerMovies.innerHTML = '';
   movieNominated();
-})
+});
