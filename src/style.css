@@ -12,7 +12,7 @@ h3{
 }
 
 h1{
-  font-family:'Open Sans Condensed', sans-serif;
+  font-family:'BenchNine', sans-serif;
   padding-top: 1em;
   color:white;
 }
@@ -30,10 +30,10 @@ h1{
   background:none !important;
 }
 
-h4{
+.movie-title{
   color:white;
   font-family:'Open Sans Condensed', sans-serif;
-  font-size: 50px;
+  font-size: 80px;
 }
 
 .back{
