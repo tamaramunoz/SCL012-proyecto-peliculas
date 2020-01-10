@@ -44,7 +44,6 @@ function getCardRight(movie) {
                 <h4 class="movie-title text-center">${movie.Title}</h4>
                 <p class="resena">${movie.Plot}</p>
               </div>
-
               <div class="col-md-4">
                 <img class="imagen" src="${movie.Poster}" alt="poster movie">
                 <div class="back"> 
@@ -83,17 +82,14 @@ const movieNominated = async () => {
 }
 movieNominated();
 
-// const selectingMovie = document.getElementById('filterTitle');
-// selectingMovie.addEventListener('change', getTitleMovie);
 const selectingMovie = document.querySelectorAll('.filterTitle');
 selectingMovie.forEach((movie) => movie.addEventListener('click', getTitleMovie));
 
-const getTitleMovie = async (e) => {
-  const choosingMovie = e.target.innerText;
-  // const choosingMovie = document.querySelector('.filterTitle').innerHTML;
+function getTitleMovie() {
+  const choosingMovie = document.querySelector('#filterTitle').value;
   console.log(choosingMovie);
 
-  await fetch(`https://www.omdbapi.com/?t=${choosingMovie}&apikey=8a5b424a`)
+  fetch(`https://www.omdbapi.com/?t=${choosingMovie}&apikey=8a5b424a`)
     .then((res) => (res.json()))
     .then((movieDB) => {
       const containerMovies = document.getElementById('container');
@@ -109,10 +105,16 @@ const getTitleMovie = async (e) => {
   contenido.style.display = 'none';
 };
 
+// function for none content
+const btnFilter = document.getElementById('filterTitle');
+btnFilter.addEventListener("click", () => {
+  contenido.style.display = "none";
+})
+
 // function for return start
 const btnInicio = document.getElementById('inicio');
-btnInicio.addEventListener("click", () => {
-  contenido.style.display = "flex";
+btnInicio.addEventListener('click', () => {
+  contenido.style.display = 'flex';
   const containerMovies = document.getElementById('container');
   containerMovies.innerHTML = '';
   movieNominated();
