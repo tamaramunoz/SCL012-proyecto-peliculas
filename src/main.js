@@ -105,12 +105,6 @@ function getTitleMovie() {
   contenido.style.display = 'none';
 };
 
-// function for none content
-const btnFilter = document.getElementById('filterTitle');
-btnFilter.addEventListener("click", () => {
-  contenido.style.display = "none";
-})
-
 // function for return start
 const btnInicio = document.getElementById('inicio');
 btnInicio.addEventListener('click', () => {
