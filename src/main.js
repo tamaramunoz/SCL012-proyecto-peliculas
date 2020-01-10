@@ -82,8 +82,8 @@ const movieNominated = async () => {
 }
 movieNominated();
 
-const selectingMovie = document.getElementById('filterTitle');
-selectingMovie.addEventListener('change', getTitleMovie);
+const selectingMovie = document.querySelectorAll('.filterTitle');
+selectingMovie.forEach((movie) => movie.addEventListener('click', getTitleMovie));
 
 function getTitleMovie() {
   const choosingMovie = document.querySelector('#filterTitle').value;
@@ -99,7 +99,11 @@ function getTitleMovie() {
     .catch((err) => {
       console.error(err);
     });
-}
+
+  // function for none content
+  const contenido = document.getElementById('contenido');
+  contenido.style.display = 'none';
+};
 
 // function for none content
 const btnFilter = document.getElementById('filterTitle');
@@ -109,9 +113,9 @@ btnFilter.addEventListener("click", () => {
 
 // function for return start
 const btnInicio = document.getElementById('inicio');
-btnInicio.addEventListener("click", () => {
-  contenido.style.display = "flex";
+btnInicio.addEventListener('click', () => {
+  contenido.style.display = 'flex';
   const containerMovies = document.getElementById('container');
   containerMovies.innerHTML = '';
   movieNominated();
-})
+});
