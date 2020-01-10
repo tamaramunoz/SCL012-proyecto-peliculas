@@ -9,32 +9,13 @@ function getCard(movie) {
                   <p class="rating">Rating: ${movie.imdbRating}</p>
                 </div>
               </div>
-
               <div class="col-md-8 plot"> 
                 <h4 class="movie-title text-center">${movie.Title}</h4>
                 <p class="resena">${movie.Plot}</p>
               </div>
-
             </div>
-
             <div class="spacing"></div>
           </div>`;
-
-  // return `<div class="card-wrap">
-  //           <div class="card">
-  //             <div class="front">
-  //               <h4 class="movie-title">${movie.Title}</h4>
-  //               <img class="imagen" src="${movie.Poster}" alt="poster movie">
-  //             </div>
-  //             <div class="back">
-  //               <p class="resena">${movie.Plot}</p>
-  //               <p class="genero">Genre: ${movie.Genre}</p>
-  //               <p class="actors">Actors: ${movie.Actors} </p>
-  //               <p class="rating">Rating: ${movie.imdbRating}</p>
-  //             </div>
-  //             </div>
-  //           </div>
-  //         </div>`;
 }
 
 function getCardLeft(movie) {
@@ -48,42 +29,21 @@ function getCardLeft(movie) {
                   <p class="rating">Rating: ${movie.imdbRating}</p>
                 </div>
               </div>
-
               <div class="col-md-8 plot"> 
                 <h4 class="movie-title text-center">${movie.Title}</h4>
                 <p class="resena">${movie.Plot}</p>
               </div>
-
             </div>
-
             <div class="spacing"></div>
           </div>`;
-
-  // return `<div class="card-wrap">
-  //           <div class="card">
-  //             <div class="front">
-  //               <h4 class="movie-title">${movie.Title}</h4>
-  //               <img class="imagen" src="${movie.Poster}" alt="poster movie">
-  //             </div>
-  //             <div class="back"> 
-  //               <p class="resena">${movie.Plot}</p>
-  //               <p class="genero">Genre: ${movie.Genre}</p>
-  //               <p class="actors">Actors: ${movie.Actors} </p>  
-  //               <p class="rating">Rating: ${movie.imdbRating}</p>
-  //             </div>
-  //             </div>
-  //           </div>
-  //         </div>`;
 }
 
 function getCardRight(movie) {
   return `<div class="row">
-
               <div class="col-md-8 plot"> 
                 <h4 class="movie-title text-center">${movie.Title}</h4>
                 <p class="resena">${movie.Plot}</p>
               </div>
-
               <div class="col-md-4">
                 <img class="imagen" src="${movie.Poster}" alt="poster movie">
                 <div class="back"> 
@@ -92,7 +52,6 @@ function getCardRight(movie) {
                   <p class="rating">Rating: ${movie.imdbRating}</p>
                 </div>
               </div>
-
             </div>
             
             <div class="spacing"></div>
@@ -120,25 +79,19 @@ const movieNominated = async () => {
   await getNameMovie('Parasite', 'left');
   await getNameMovie('Marriage Story', 'right');
   await getNameMovie('1917', 'left');
-};
-
+}
 movieNominated();
 
 const selectingMovie = document.querySelectorAll('.filterTitle');
 selectingMovie.forEach((movie) => movie.addEventListener('click', getTitleMovie));
 
-
-// selectingMovie.addEventListener('click', getTitleMovie);
-
-const getTitleMovie = async (e) => {
-  const choosingMovie = e.target.innerText;
-  // const choosingMovie = document.querySelector('.filterTitle').innerHTML;
+function getTitleMovie() {
+  const choosingMovie = document.querySelector('#filterTitle').value;
   console.log(choosingMovie);
 
-  await fetch(`https://www.omdbapi.com/?t=${choosingMovie}&apikey=8a5b424a`)
+  fetch(`https://www.omdbapi.com/?t=${choosingMovie}&apikey=8a5b424a`)
     .then((res) => (res.json()))
     .then((movieDB) => {
-      // console.log(movieDB)
       const containerMovies = document.getElementById('container');
       containerMovies.innerHTML = '';
       containerMovies.innerHTML += getCard(movieDB);
@@ -152,12 +105,11 @@ const getTitleMovie = async (e) => {
   contenido.style.display = 'none';
 };
 
-
 // function for none content
-// const btnFilter = document.getElementById('filterTitle');
-// btnFilter.addEventListener("click", () => {
-//   contenido.style.display = "none";
-// })
+const btnFilter = document.getElementById('filterTitle');
+btnFilter.addEventListener("click", () => {
+  contenido.style.display = "none";
+})
 
 // function for return start
 const btnInicio = document.getElementById('inicio');

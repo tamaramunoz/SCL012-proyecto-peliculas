@@ -9,14 +9,12 @@ body{
   }
 
 h3{
-  /* font-family: 'BenchNine', 'Open Sans', 'Condensed', sans-serif; */
   font-size: 2.3em !important;
   padding-top: 9em;
   color:white;
 }
 
 h1{
-  /* font-family:'BenchNine', sans-serif; */
   font-weight: bold !important;
   font-size: 150px !important;
   padding-top: 0.4em;
@@ -45,11 +43,7 @@ h1{
 }
 
 .back{
-  /* color:white; */
-  /* line-height: 1.6; */
   font-family:'BenchNine', sans-serif;
-  /* font-size: 25px; */
-
   font-weight: bold;
   font-size: 25px;
   line-height: 50px;
